@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+	<section class="hero_image">
+		<div class="hero_wrapper">
+			<h1>WE LOVE YOU</h1>
+			<p>WE LOVE YOU </p>
+			<span>post</span>
+			<form class="form_code"> 
+
+				<input class="post_code" type="text" placeholder="Enter your post code">
+				<button type="submit">BUKA BERSAMA</button>
+			</form>
+		</div>
+	</section>
+
+	<section class="product">
+		<div class="product__list__item">
+			<img class="img-responsive" src="food1.jpg" alt="">
+			<h2 class="product_heading">
+				Kudu teko
+			</h2>
+			<p>WAJIB DATANG Nambah Silaturahmi </p>
+		</div>
+
+		<div class="product__list__item">
+			<img class="img-responsive" src="food2.jpg" alt="">
+			<h2 class="product_heading">
+				Harus teko
+			</h2>
+			<p>Ojo lali teko </p>
+		</div>
+		<div class="product__list__item">
+			<img class="img-responsive" src="food3.jpg" alt="">
+			<h2 class="product_heading">
+	
+			</h2>
+			<p>BUKBER Copyrigth2020</p>
+		</div>
+
+	</section>
+</body>
+<style>
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Utilty Classes*/
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.hero_image {
+	background: url(heroimage.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.hero_wrapper {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hero_wrapper h1 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+
+.hero_wrapper span {
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+}
+
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+	.product__list__item { 
+		width: 100%;
+		float: none;
+	}
+}
+
+
+</div>
+                    <div class="modal-body">
+                        <img class="gambar1w" src="food1.jpg">
